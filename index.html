@@ -1215,6 +1215,35 @@
       .social-footer { padding: 60px 16px; }
       .social-name { font-size: 26px; }
       .social-links { gap: 10px; }
+
+      /* новые элементы */
+      .slink-card { padding: 4px 16px; }
+      .slink-row { font-size: 14px; gap: 12px; }
+      .slink-icon { width: 36px; height: 36px; flex-shrink: 0; }
+      .slink-icon svg { width: 18px; height: 18px; }
+
+      /* картинки с фиксированной шириной */
+      img[src="image-Photoroom (19).png"],
+      img[src="image-Photoroom (20).png"] {
+        width: 100% !important;
+        max-width: 340px;
+        margin-bottom: 0 !important;
+      }
+
+      /* liquid glass badge */
+      .factors .fade-in > span[style] {
+        font-size: 15px;
+        padding: 10px 20px;
+        white-space: normal;
+        text-align: center;
+      }
+
+      /* negative margins override */
+      .personas > .container-wide > div[style*="-100px"],
+      .personas > .container-wide > div[style*="-130px"],
+      .tools > .container > div[style*="-100px"] {
+        margin-bottom: -30px !important;
+      }
       .slink { padding: 10px 18px; font-size: 13px; }
 
       .btn { width: 100%; justify-content: center; }
@@ -1660,7 +1689,7 @@
 
       <a href="https://max.ru/volkovacapital" class="slink-row" target="_blank">
         <span class="slink-icon" style="background:transparent; overflow:hidden;">
-          <img src="MAX LOGO.webp" alt="Max" style="width:36px;height:36px;object-fit:contain;border-radius:8px;">
+          <img src="MAX LOGO.webp" alt="Max" style="width:58px;height:58px;object-fit:contain;border-radius:13px;">
         </span>
         <span class="slink-text">Мой МАХ-канал — <span class="slink-url">max.ru/volkovacapital</span></span>
       </a>
