@@ -968,6 +968,42 @@
       text-align: center;
     }
 
+    .slink-card {
+      background: #fff;
+      border-radius: 18px;
+      border: 1.5px solid rgba(0,0,0,0.1);
+      padding: 8px 24px;
+      text-align: left;
+    }
+    .slink-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid #EBEBEB;
+      text-decoration: none;
+      color: #1a1a1a;
+      font-size: 16px;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+    .slink-row:last-child { border-bottom: none; }
+    .slink-row:hover { opacity: 0.7; }
+    .slink-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .slink-url {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      color: #2B6BE6;
+    }
+
     .social-name {
       font-family: 'Manrope', sans-serif;
       font-size: 34px;
@@ -1204,7 +1240,7 @@
       </div>
     </div>
     <div class="hero-photo-wrap fade-in d2">
-      <img class="hero-photo" src="upscalemedia-transformed (1)-Photoroom.png" alt="Татьяна Волкова">
+      <img class="hero-photo" src="image-Photoroom (18).png" alt="Татьяна Волкова">
     </div>
   </div>
 </section>
@@ -1250,7 +1286,6 @@
     <p class="fade-in" style="font-weight: 500; color: var(--text-mid);">И где-то между всем этим теряется то, с чего вы начинали.</p>
 
     <div class="reply-card fade-in">
-      <p class="reply-label">Реальность</p>
       <p class="reply-text">Не информации не хватает. Её слишком много. И без собственной системы она не помогает — она давит.</p>
     </div>
 
@@ -1319,6 +1354,10 @@
       <p>Это не слабость характера. Это нормальная реакция человека, который действует без ориентира. Когда нет понятной структуры — мозг пытается найти её снаружи. Хватается за каждый новый сигнал. И устаёт.</p>
       <p class="bridge-em">Стресс создаёт не рынок. Стресс создаёт отсутствие своей точки опоры.</p>
     </div>
+
+    <div class="fade-in" style="text-align: center; margin: 24px 0 -130px;">
+      <img src="image-Photoroom (20).png" alt="" style="width: 580px; height: auto;">
+    </div>
   </div>
 </section>
 
@@ -1385,13 +1424,16 @@
     <p class="tools-note fade-in">
       Разница между ними — не в уровне знаний. А в том, что первый точно знает: зачем он здесь и что делает.
     </p>
+
+    <div class="fade-in" style="text-align: center; margin: 0 0 -100px;">
+      <img src="image-Photoroom (19).png" alt="" style="width: 580px; height: auto;">
+    </div>
   </div>
 </section>
 
 <!-- ══ CALMNESS (dark) ════════════════════════ -->
 <section class="section copying">
   <div class="container">
-    <p class="label fade-in">Опора</p>
     <h2 class="heading fade-in d1">Что на самом деле <em style="color:rgba(232,149,109,0.9);">даёт спокойствие</em></h2>
     <p class="lead fade-in d2">Рынок не станет более предсказуемым. Новостей не станет меньше. Чужих советов тоже.</p>
 
@@ -1586,9 +1628,10 @@
       <p class="cta-tagline" style="margin-bottom: 40px; font-weight: 800; color: var(--dark);">Это про то, чтобы перестать теряться — и начать действовать с пониманием того, что и зачем вы делаете.</p>
 
       <a href="#" class="btn">
-        Узнать подробнее о курсе
+        Узнать подробнее
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
+      <p style="margin-top: 16px; font-size: 12px; color: rgba(1,51,76,0.45); text-align: center;">Материал носит образовательный характер и не является индивидуальной инвестиционной рекомендацией</p>
     </div>
   </div>
 </section>
@@ -1596,30 +1639,40 @@
 
 <!-- ══ SOCIAL / FOOTER ══════════════════════ -->
 <footer class="social-footer">
-  <div class="container">
+  <div class="container" style="max-width: 480px;">
     <p class="social-name">Татьяна Волкова</p>
-    <p class="social-role">Эксперт по созданию личного капитала</p>
+    <p class="social-role" style="margin-bottom: 28px;">Эксперт по созданию личного капитала</p>
+    <div class="slink-card">
 
-    <div class="social-links">
-      <a href="https://t.me/volkovacapital" class="slink" target="_blank">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-1.97 9.289c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L6.26 14.4l-2.96-.924c-.644-.204-.657-.644.136-.953l11.57-4.461c.537-.194 1.006.131.556.186z"/></svg>
-        Telegram
+      <a href="https://vk.com/volkovacapital" class="slink-row" target="_blank">
+        <span class="slink-icon" style="background:#0077FF;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M21.579 6.855c.14-.465 0-.806-.662-.806h-2.193c-.557 0-.813.295-.953.619 0 0-1.115 2.719-2.695 4.482-.511.512-.743.675-1.022.675-.14 0-.342-.163-.342-.628V6.855c0-.558-.161-.806-.626-.806H9.642c-.348 0-.557.259-.557.504 0 .528.79.65.871 2.138v3.228c0 .707-.128.836-.406.836-.743 0-2.551-2.731-3.624-5.858C5.715 6.585 5.505 6.05 4.944 6.05H2.75c-.627 0-.75.295-.75.619 0 .581.743 3.462 3.461 7.274 1.812 2.601 4.363 4.011 6.687 4.011 1.393 0 1.565-.313 1.565-.853v-1.967c0-.628.133-.752.574-.752.325 0 .883.163 2.184 1.42C17.857 17.29 18.1 18 18.91 18h2.193c.626 0 .94-.313.759-.931-.197-.616-.906-1.51-1.847-2.569-.511-.604-1.277-1.254-1.51-1.579-.325-.418-.232-.604 0-.976 0 0 2.672-3.765 2.95-5.046l.124-.044z"/></svg>
+        </span>
+        <span class="slink-text">Мой ВК — <span class="slink-url">vk.com/volkovacapital</span></span>
       </a>
-      <a href="https://vk.com/volkovacapital" class="slink" target="_blank">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M21.579 6.855c.14-.465 0-.806-.662-.806h-2.193c-.557 0-.813.295-.953.619 0 0-1.115 2.719-2.695 4.482-.511.512-.743.675-1.022.675-.14 0-.342-.163-.342-.628V6.855c0-.558-.161-.806-.626-.806H9.642c-.348 0-.557.259-.557.504 0 .528.79.65.871 2.138v3.228c0 .707-.128.836-.406.836-.743 0-2.551-2.731-3.624-5.858C5.715 6.585 5.505 6.05 4.944 6.05H2.75c-.627 0-.75.295-.75.619 0 .581.743 3.462 3.461 7.274 1.812 2.601 4.363 4.011 6.687 4.011 1.393 0 1.565-.313 1.565-.853v-1.967c0-.628.133-.752.574-.752.325 0 .883.163 2.184 1.42C17.857 17.29 18.1 18 18.91 18h2.193c.626 0 .94-.313.759-.931-.197-.616-.906-1.51-1.847-2.569-.511-.604-1.277-1.254-1.51-1.579-.325-.418-.232-.604 0-.976 0 0 2.672-3.765 2.95-5.046l.124-.044z"/></svg>
-        VK
+
+      <a href="https://www.youtube.com/@capitalvolkova" class="slink-row" target="_blank">
+        <span class="slink-icon" style="background:#FF0000;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </span>
+        <span class="slink-text">Мой Ютуб — <span class="slink-url">youtube.com/@capitalvolkova</span></span>
       </a>
-      <a href="https://www.youtube.com/@capitalvolkova" class="slink" target="_blank">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-        YouTube
+
+      <a href="https://max.ru/volkovacapital" class="slink-row" target="_blank">
+        <span class="slink-icon" style="background:transparent; overflow:hidden;">
+          <img src="MAX LOGO.webp" alt="Max" style="width:36px;height:36px;object-fit:contain;border-radius:8px;">
+        </span>
+        <span class="slink-text">Мой МАХ-канал — <span class="slink-url">max.ru/volkovacapital</span></span>
       </a>
-      <a href="https://max.ru/volkovacapital" class="slink" target="_blank">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm3.5 8.5l-1.5 7-2.5-4.5-2.5 4.5-1.5-7 1.5-.5 1 4 2-3.5 2 3.5 1-4 1.5.5z"/></svg>
-        Max
+
+      <a href="https://t.me/volkovacapital" class="slink-row" target="_blank">
+        <span class="slink-icon" style="background:transparent; overflow:hidden;">
+          <img src="Telegram_logo.svg.webp" alt="Telegram" style="width:44px;height:44px;object-fit:cover;border-radius:50%;">
+        </span>
+        <span class="slink-text">Мой Telegram — <span class="slink-url">t.me/volkovacapital</span></span>
       </a>
+
     </div>
-
-    <p class="disclaimer">Материал носит образовательный характер и не является индивидуальной инвестиционной рекомендацией</p>
   </div>
 </footer>
 
